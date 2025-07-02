@@ -6,8 +6,7 @@
 
 We propose a new virtual point-based method to build Gaussian processes (GPs) under monotonicity constraints, leveraging the Regularized Linear Randomize-then-Optimize (RLRTO) method.
 
-## Local setup
-#### Environments
+## Environments
 
 The codes were developed with Python 3.12.0, and the core libraries being used are as follows:
 
