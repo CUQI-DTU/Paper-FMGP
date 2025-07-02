@@ -23,7 +23,7 @@ See [requirements.txt](requirements.txt) for complete environment specifics.
 ## Commands
 
 ### Experiments in Section 4
-- For `dim={1,2}`, `case={1,2,3}` and `ns={4,8,16,32,64,128}`, the following command will run the notebook and save a copy of it at `/out`:
+- For `dim={1,2}`, `case={1,2,3}` and `ns={4,8,16,32,64,128}`, the following command will run the notebook and save a copy of it at `/hpc_output`:
 
 ```bash
 NB_ARGS=' --ns {ns} ' jupyter nbconvert --execute --to notebook demo_{dim}d_{case}.ipynb --output out/demo_{dim}d_{case}_{ns}.ipynb
@@ -34,5 +34,5 @@ NB_ARGS=' --ns {ns} ' jupyter nbconvert --execute --to notebook demo_{dim}d_{cas
 To run the experiment on SIR:
 - `NB_ARGS=' --ns 64 ' jupyter nbconvert --execute --to notebook demo_2d_sir.ipynb --output out/demo_2d_sir_64.ipynb`
 
-To run the experiment on the Convection diffusion equation:
-- `NB_ARGS=' --ns 128 ' jupyter nbconvert --execute --to notebook demo_3d_heat.ipynb --output out/demo_3d_heat_128.ipynb`
+To run the experiment on the convection diffusion equation:
+- `NB_ARGS=' --ns 128 ' jupyter nbconvert --execute --to notebook demo_3d_heat.ipynb --output out/demo_3d_convection_diffusion_128.ipynb`
