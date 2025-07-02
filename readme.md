@@ -16,7 +16,6 @@ The codes were developed with Python 3.12.0, and the core libraries being used a
 - Pyro 1.9.1
 - GPJax 0.11.0
 - PyTorch 2.6.0
-- nbconvert 7.16.6
 
 See [requirements.txt](requirements.txt) for complete environment specifics.
 
