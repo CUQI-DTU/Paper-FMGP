@@ -36,5 +36,5 @@ NB_ARGS=' --ns 64 ' jupyter nbconvert --execute --to notebook demo_2d_sir.ipynb 
 
 To run the the convection diffusion equation experiment:
 ```bash
-NB_ARGS=' --ns 128 ' jupyter nbconvert --execute --to notebook demo_3d_heat.ipynb --output hpc_output/demo_3d_convection_diffusion_128.ipynb
+NB_ARGS=' --ns 128 ' jupyter nbconvert --execute --to notebook demo_3d_convection_diffusion.ipynb --output hpc_output/demo_3d_convection_diffusion_128.ipynb
 ```
