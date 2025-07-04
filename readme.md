@@ -1,4 +1,4 @@
-# Fast Gaussian Processes under Monotonicity constraints
+# Fast Gaussian Processes under Monotonicity Constraints
 
 #### [ArXiv](https://google.com)
 
