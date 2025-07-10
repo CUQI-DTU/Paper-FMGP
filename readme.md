@@ -1,6 +1,6 @@
 # Fast Gaussian Processes under Monotonicity Constraints
 
-#### [ArXiv](https://google.com)
+#### [arXiv](https://arxiv.org/abs/2507.06677)
 
 ## Introduction
 
